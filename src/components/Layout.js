@@ -55,7 +55,7 @@ function Layout() {
                 <Outlet />
             </div>
 
-            <div className='bg-black py-10 text-white'>
+            <div className='bg-custom-950 py-12 text-white'>
                 <Footer />
             </div>
 

@@ -1,11 +1,11 @@
 import React from "react";
 
-function FAG(){
+function FAQ(){
     return(
         <div>
-            FAG
+            FAQ
         </div>
     )
 }
 
-export default FAG;
+export default FAQ;

@@ -5,7 +5,7 @@ import Layout from "./components/Layout";
 import Home from "./page/Home";
 import About from "./page/About";
 import Contact from "./page/Contact";
-import FAG from "./page/FAG";
+import FAQ from "./page/FAQ";
 import ShippingPolicy from "./page/ShippingPolicy";
 import StorePolicy from "./page/StorePolicy";
 import ShopAll from "./components/ShopAll";
@@ -38,7 +38,7 @@ function App() {
           
           <Route path="shipping-policy" element={<ShippingPolicy />} />
           <Route path="store-policy" element={<StorePolicy />} />
-          <Route path="FAG" element={<FAG />} />
+          <Route path="FAQ" element={<FAQ />} />
 
 
         </Route> 

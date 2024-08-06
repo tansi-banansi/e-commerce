@@ -14,7 +14,7 @@ function ShopAll() {
             </div>
 
 
-            <div className="grid grid-cols-3 gap-4 justify-evenly w-full">
+            <div className="grid grid-cols-3 gap-4 ">
 
                 {shopAll.map((product) => (
                     <ProductItem key={product.id} product={product} />

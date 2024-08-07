@@ -51,7 +51,7 @@ function Layout() {
             </nav>
         
         
-            <div className='mx-auto max-w-5xl p-5'>
+            <div className='mx-auto max-w-7xl p-5'>
                 <Outlet />
             </div>
 

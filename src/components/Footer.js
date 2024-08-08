@@ -5,19 +5,19 @@ import MailingListForm from "./MailingListForm";
 
 function Footer(){
     return(
-        <div className="max-w-7xl mx-auto py-8 grid grid-cols-1 gap-y-8 lg:gap-10 lg:grid-cols-3 text-center md:text-start">
+        <div className="max-w-7xl mx-auto py-12 px-6 grid grid-cols-1 gap-y-8 lg:gap-10 lg:grid-cols-3 text-center md:text-start">
             
             <MailingListForm />
             
             <div className="grid grid-cols-1 col-span-2 md:grid-cols-3 w-full gap-8">
                 <div className="flex flex-col space-y-2 font-thin text-sm">
-                    <h2 className="font-playfair font-light text-2xl mb-1.5">Policy</h2>
+                    <h2 className="font-playfair font-semibold text-2xl mb-1.5">Policy</h2>
                     <Link to="/shipping-policy" className="hover:opacity-60 transition-opacity duration-200">Shipping & Returns</Link>
                     <Link to="/store-policy" className="hover:opacity-60 transition-opacity duration-200">Store Policy</Link>
                     <Link to="/FAQ" className="hover:opacity-60 transition-opacity duration-200">FAQ</Link>
                 </div>
                 <div className="flex flex-col space-y-2 font-thin text-sm">
-                    <h2 className="font-playfair font-light text-2xl mb-1.5">Our Store</h2>
+                    <h2 className="font-playfair font-semibold text-2xl mb-1.5">Our Store</h2>
                     <div>
                         <p>Address Line 1</p>
                         <p>Address Line 2</p>
@@ -28,7 +28,7 @@ function Footer(){
                     </div>
                 </div>
                 <div className="flex flex-col space-y-2 font-thin text-sm">
-                    <h2 className="font-playfair font-light text-2xl mb-1.5">Customer Service</h2>
+                    <h2 className="font-playfair font-semibold text-2xl mb-1.5">Customer Service</h2>
                     
                     <div>
                         <p>Tel: 123-456-7890</p>

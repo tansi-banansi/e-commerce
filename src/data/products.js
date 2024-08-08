@@ -37,6 +37,32 @@ export const productDetails = [
     }
 ]
 
+export const categoryImages = {
+    body: {
+        name: 'Body',
+        src: '/img/90-000.jpg',
+        alt: 'Cover Image'
+    }, 
+    accessories: {
+        name: 'Accessories',
+        src: '/img/90-001.jpg',
+        alt: 'Cover Image'
+    }, 
+    face: {
+        name: 'Face',
+        src: '/img/90-002.jpg',
+        alt: 'Cover Image'
+    }, 
+    shop: {
+        name: 'All Products',
+        src: '/img/90-003.jpg',
+        alt: 'Cover Image'
+    }, 
+
+
+}
+
+
 export const shopAll = [
     {
         id:1,

@@ -51,11 +51,11 @@ function Layout() {
             </nav>
         
         
-            <div className='mx-auto max-w-7xl p-5'>
+            <div className=''>
                 <Outlet />
             </div>
 
-            <div className='bg-custom-950 py-12 text-white'>
+            <div className='bg-custom-950 text-white'>
                 <Footer />
             </div>
 

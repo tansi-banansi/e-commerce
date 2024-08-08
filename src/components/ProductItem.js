@@ -8,8 +8,11 @@ function ProductItem({product}) {
     return (
         <div className="relative" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
             <div className="relative h-64 w-full">
-                <Link to={`${product.category}/${product.id}`} className="block h-full w-full">
-                    <img src={product.src} alt={product.name} className="h-full w-full object-cover rounded-t-lg hover:opacity-65"/>
+                <Link to={`${product.category}/${product.id}`} className="relative group h-full w-full">
+                    <img src={product.src} alt={product.name} className="h-full w-full object-cover rounded-t-lg"/>
+                    <div className='absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-200 rounded-t-lg'>
+                        <span className='text-white text-lg font-semibold'>See More</span>
+                    </div>
                 </Link>
             </div>
 

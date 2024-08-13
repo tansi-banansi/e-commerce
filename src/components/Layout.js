@@ -7,11 +7,11 @@ function Layout() {
     const [dropdownOpen, setDropDownOpen] = useState(false);
 
     return (
-        <div className='"min-h-screen font w-full">'>
+        <div className='"min-h-screen w-full">'>
 
             <nav className="sticky top-0 z-10 shadow-lg bg-custom-50">
 
-                <div className="mx-auto max-w-5xl p-5 flex justify-between items-center">
+                <div className="mx-auto max-w-7xl p-5 flex justify-between items-center">
 
                     <div className="text-2xl font-playfair font-bold">
                         <Link to="/">Serene</Link>
@@ -42,7 +42,7 @@ function Layout() {
                     </div>
 
                     <div>
-                        <Link to='/cart'>Cart</Link>
+                        <Link to='/shopping-cart'>Cart</Link>
                     </div>
 
 

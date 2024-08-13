@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import Shop from "./page/Shop";
 import Layout from "./components/Layout";
@@ -11,42 +11,49 @@ import StorePolicy from "./page/StorePolicy";
 import ShopAll from "./components/ShopAll";
 import ShopByCategory from "./components/ShopByCategory";
 import ShopByProduct from "./components/ShopByProduct";
-
+import ShoppingCart from "./page/ShoppingCart";
+import {CartProvider} from './context/ShoppingCartContext';
 
 function App() {
 
   return (
 
-    <Router>
+    <CartProvider>
+      
+      <Router>
+        <Suspense fallback={<div>Loading...</div>}>
 
-      <Routes>
+          <Routes>
 
-        <Route path="/" element={<Layout />}>
+            <Route path="/" element={<Layout />}>
 
-          <Route index element={<Home />} />
+              <Route index element={<Home />} />
 
-          <Route path="shop" element={<Shop />}>
+              <Route path="shop" element={<Shop />}>
 
-            <Route index element={<ShopAll />}/>
-            <Route path=":category" element={<ShopByCategory />} />
+                <Route index element={<ShopAll />}/>
+                <Route path=":category" element={<ShopByCategory />} />
 
-          </Route> 
-          <Route path="shop/:category/:id" element={<ShopByProduct />} />
+              </Route> 
+              <Route path="shop/:category/:id" element={<ShopByProduct />} />
 
-          <Route path="about" element={<About />} />
-          <Route path="contact" element={<Contact />} />
-          
-          <Route path="shipping-policy" element={<ShippingPolicy />} />
-          <Route path="store-policy" element={<StorePolicy />} />
-          <Route path="FAQ" element={<FAQ />} />
+              <Route path="about" element={<About />} />
+              <Route path="contact" element={<Contact />} />
+              
+              <Route path="shipping-policy" element={<ShippingPolicy />} />
+              <Route path="store-policy" element={<StorePolicy />} />
+              <Route path="FAQ" element={<FAQ />} />
+
+              <Route path="shopping-cart" element={<ShoppingCart />} />
+
+            </Route> 
+
+          </Routes>
+        </Suspense>
 
 
-        </Route> 
-
-      </Routes>
-
-
-    </Router>
+      </Router>
+    </CartProvider>
   );
 }
 

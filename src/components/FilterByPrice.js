@@ -23,15 +23,15 @@ function FilterByPrice({priceValue, setPriceValue}){
 
             {isvisible &&
                 <div className="flex items-center space-x-4">
-                    <span>$0</span>
+                    <span className="text-md text-gray-600">$0</span>
                     <input type="range" 
                     min="0"
                     max="20"
                     value={priceValue}
                     onChange={handlePriceChange}
-                    className="w-full"
+                    className="w-full accent-custom-500"
                     />
-                    <span>${priceValue}</span>
+                    <span className="text-md text-gray-600">${priceValue}</span>
                 </div>
             } 
         </div>

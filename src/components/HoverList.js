@@ -9,7 +9,7 @@ function HoverList({dropdownOpen, setDropDownOpen}){
                 <div className="absolute z-10 space-x-5">
                     <Link to='/shop/face'>Face</Link>
                     <Link to='/shop/body'>Body</Link>
-                    <Link to='/shop/accessories'>Accessories</Link>
+                    <Link to='/shop/three'>accessories</Link>
               </div>
             )}
             

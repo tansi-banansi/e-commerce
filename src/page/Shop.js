@@ -5,7 +5,7 @@ import FilterByPrice from "../components/FilterByPrice";
 
 function Shop() {
     const {category} = useParams();
-    const [priceValue, setPriceValue] = useState();
+    const [priceValue, setPriceValue] = useState(20);
 
     return (
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-5 pt-6 lg:pt-12 pb-12 px-6 lg:gap-8">

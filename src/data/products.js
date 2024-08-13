@@ -162,7 +162,63 @@ export const shopAll = [
         'Ingredients': ['Honey', 'Shea Butter', 'Olive Oil', 'Glycerin', 'Water', 'Sodium Hydroxide', 'Natural Fragrance'],
         'How to Use': 'Lather between hands with water, apply to the body, and rinse thoroughly. For external use only.',
 
-    }
+    },
+    {
+        id:8,
+        category: 'face',
+        src:'/img/50-001.jpg',
+        name: 'Honey Glow Body Wash Soap',
+        price: 7.99,
+        type:'Suitable for all skin types, especially sensitive and dry skin.',
+        alt:'Body wash soup',
+        shortDescription: 'Nourish and soothe your skin with our Honey Glow Body Wash Soap, enriched with natural honey for a gentle and hydrating cleanse.',
+        'Details': 'Our Honey Glow Body Wash Soap is infused with pure honey, known for its moisturizing and antibacterial properties. This soap provides a creamy lather that gently cleanses while leaving your skin soft, smooth, and glowing. The sweet and subtle honey fragrance adds a touch of natural luxury to your shower routine.',
+        'Ingredients': ['Honey', 'Shea Butter', 'Olive Oil', 'Glycerin', 'Water', 'Sodium Hydroxide', 'Natural Fragrance'],
+        'How to Use': 'Lather between hands with water, apply to the body, and rinse thoroughly. For external use only.',
+
+    },
+    {
+        id:9,
+        category: 'face',
+        src:'/img/50-002.jpg',
+        name: 'Honey Glow Body Wash Soap',
+        price: 7.99,
+        type:'Suitable for all skin types, especially sensitive and dry skin.',
+        alt:'Body wash soup',
+        shortDescription: 'Nourish and soothe your skin with our Honey Glow Body Wash Soap, enriched with natural honey for a gentle and hydrating cleanse.',
+        'Details': 'Our Honey Glow Body Wash Soap is infused with pure honey, known for its moisturizing and antibacterial properties. This soap provides a creamy lather that gently cleanses while leaving your skin soft, smooth, and glowing. The sweet and subtle honey fragrance adds a touch of natural luxury to your shower routine.',
+        'Ingredients': ['Honey', 'Shea Butter', 'Olive Oil', 'Glycerin', 'Water', 'Sodium Hydroxide', 'Natural Fragrance'],
+        'How to Use': 'Lather between hands with water, apply to the body, and rinse thoroughly. For external use only.',
+
+    },
+    {
+        id:10,
+        category: 'face',
+        src:'/img/50-003.jpg',
+        name: 'Honey Glow Body Wash Soap',
+        price: 7.99,
+        type:'Suitable for all skin types, especially sensitive and dry skin.',
+        alt:'Body wash soup',
+        shortDescription: 'Nourish and soothe your skin with our Honey Glow Body Wash Soap, enriched with natural honey for a gentle and hydrating cleanse.',
+        'Details': 'Our Honey Glow Body Wash Soap is infused with pure honey, known for its moisturizing and antibacterial properties. This soap provides a creamy lather that gently cleanses while leaving your skin soft, smooth, and glowing. The sweet and subtle honey fragrance adds a touch of natural luxury to your shower routine.',
+        'Ingredients': ['Honey', 'Shea Butter', 'Olive Oil', 'Glycerin', 'Water', 'Sodium Hydroxide', 'Natural Fragrance'],
+        'How to Use': 'Lather between hands with water, apply to the body, and rinse thoroughly. For external use only.',
+
+    },
+    {
+        id:11,
+        category: 'face',
+        src:'/img/50-004.jpg',
+        name: 'Honey Glow Body Wash Soap',
+        price: 7.99,
+        type:'Suitable for all skin types, especially sensitive and dry skin.',
+        alt:'Body wash soup',
+        shortDescription: 'Nourish and soothe your skin with our Honey Glow Body Wash Soap, enriched with natural honey for a gentle and hydrating cleanse.',
+        'Details': 'Our Honey Glow Body Wash Soap is infused with pure honey, known for its moisturizing and antibacterial properties. This soap provides a creamy lather that gently cleanses while leaving your skin soft, smooth, and glowing. The sweet and subtle honey fragrance adds a touch of natural luxury to your shower routine.',
+        'Ingredients': ['Honey', 'Shea Butter', 'Olive Oil', 'Glycerin', 'Water', 'Sodium Hydroxide', 'Natural Fragrance'],
+        'How to Use': 'Lather between hands with water, apply to the body, and rinse thoroughly. For external use only.',
+
+    },
 
 
 ]

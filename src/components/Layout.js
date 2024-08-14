@@ -51,7 +51,7 @@ function Layout() {
             </nav>
         
         
-            <div className=''>
+            <div className='bg-custom-50'>
                 <Outlet />
             </div>
 

@@ -10,10 +10,11 @@ function ShoppingCart(){
     return(
         <div className="max-w-7xl mx-auto py-12 px-6">
             <div>
-                <div> 
-                    <h1 className="font-playfair font-semibold text-2xl mb-6">
+                <div className="mb-4"> 
+                    <h1 className="font-playfair font-semibold text-2xl">
                         Your bag
-                    </h1>           
+                    </h1>
+                    {cartItems.length !== 0 && <p><span className="font-semibold">{cartItems.length} items</span> in your bag.</p>}       
                 </div>
                 {cartItems.length === 0 ? 
                     (
@@ -21,58 +22,55 @@ function ShoppingCart(){
                             Your cart is empty. <Link to="/shop" className="">Continue shopping</Link>
                         </p>
                     ) : ( 
-                        <div className="grid grid-cols-1">
-                            <div className="col-span-1">
+                        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5">
+                            <div className="col-span-1 md:col-span-2 lg:col-span-3 bg-white rounded-3xl p-6 shadow-xl">
                                 {cartItems.map(item =>
-                                    <div key={item.id} className="grid grid-cols-3 border-b border-custom-200 py-10 ">
+                                    <div key={item.id} className="flex justify-between  border-b border-custom-100 py-6 gap-3 ">
 
-                                        <div className="col-span-1">
-                                            <div className="w-32 h-32">
-                                                <img src={item.src} alt={item.alt} className="h-full w-full object-cover" />
+                                        <div className="shrink-0">
+                                            <div className="w-24 h-24">
+                                                <img src={item.src} alt={item.alt} className="h-full w-full object-cover rounded-lg" />
                                             </div>
                                         </div>
-
-                                        <div className="col-span-2 grid-cols-2">
-                                            <h2 className="font-medium col-span-2 ">{item.name}</h2>
-                                            <div className="col-span-1">
-                                                <p className="text-sm font-light">${(item.price.toFixed(2))}</p>
-                                            </div>
-                                            <div className="col-span-1">
-                                                <QuantityButton item={item} updateQuantity={updateQuantity} removeFromCart={removeFromCart}/>
-                                            </div>
-                                        </div>
-
                                         
 
-                                        <div className="col-span-1">
+                                        <div className="flex flex-col justify-between grow lg:grid lg:grid-cols-4">                                           
+                                            <div className="flex flex-col lg:col-span-2">
+                                                <h2 className="text-md font-semibold text-custom-900">{item.name}</h2>
+                                                <p className="text-sm text-gray-500">${(item.price.toFixed(2))}</p>
+                                            </div>
 
+                                            <div className="flex flex-row justify-between lg:grid lg:grid-cols-2 lg:items-start lg:col-span-2">
+                                                <QuantityButton item={item} updateQuantity={updateQuantity} removeFromCart={removeFromCart}/>
+                                                <div className="text-md font-semibold text-gray-800 lg:col-span-1 lg:justify-self-center">
+                                                    ${(item.price * item.quantity).toFixed(2)}
+                                                </div>
+                                            </div>
                                             
-                                            <div className="col-span-1 ">
-                                                
-                                            </div>
-
-                                            <div className="col-span-1 font-bold text-lg">${(item.price * item.quantity).toFixed(2)}</div>
-
-                                            <div className="col-span-1">
-                                                <button onClick={() => removeFromCart(item.id)}>
-                                                    <img src="/icons/bin-icon.svg" className="h-4 hover:opacity-50 text-black" alt="Delete button"/>
-                                                </button>
-                                            </div>
                                             
                                         </div>
+
+                                        <div className="flex-shrink-0">
+                                            <button onClick={() => removeFromCart(item.id)} className="hover:opacity-70 transition-opacity duration-200">
+                                                <img src="/icons/bin-icon.svg" className="h-4 w-full hover:opacity-50 object-cover" alt="Delete button"/>
+                                            </button>
+                                        </div>
+
                                     </div>
                                 )}
                             </div>
 
-                            <div className="col-span-2 sticky top-28 h-48" >
-                                <div className=" bg-custom-50 py-10 px-6 space-y-3 ">
-                                    <div className="flex justify-between">
+                            <div className="col-span-1  sticky top-28 h-48 bg-white p-6  rounded-3xl shadow-xl" >
+
+                                <div className="flex flex-col space-y-4">
+                                    <div className="flex justify-between items-center">
                                         <h3 className="uppercase font-bold text-xl">Subtotal</h3>
                                         <p className="font-bold text-xl">${totalPrice}</p>
                                     </div>
-                                        <p className="text-xs font-light">Tax included. Shipping calculated at checkout.</p>
-                                        <button className="w-full bg-custom-900 text-white uppercase font-semibold p-3 hover:bg-custom-800">Checkout</button>
+                                        <p className="text-xs font-light ">Tax included. Shipping calculated at checkout.</p>
+                                        <button className="w-full bg-custom-900 text-white uppercase font-semibold p-3 rounded-lg hover:bg-custom-700 transition duration-200">Checkout</button>
                                     </div>
+
                                 </div>
                             </div>
                         )

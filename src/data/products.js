@@ -57,7 +57,13 @@ export const categoryImages = {
         name: 'All Products',
         src: '/img/90-003.jpg',
         alt: 'Cover Image'
-    }, 
+    },
+    'best-sellers': {
+        name: 'Best Sellers',
+        src: '/img/90-004.jpg',
+        alt: 'Cover Image'
+    },  
+    
 
 
 }
@@ -219,6 +225,278 @@ export const shopAll = [
         'How to Use': 'Lather between hands with water, apply to the body, and rinse thoroughly. For external use only.',
 
     },
+    {
+        id:12,
+        category: 'face',
+        src:'/img/60-000.jpg',
+        name: 'Honey Glow Body Wash Soap',
+        price: 7.99,
+        type:'Suitable for all skin types, especially sensitive and dry skin.',
+        alt:'Body wash soup',
+        shortDescription: 'Nourish and soothe your skin with our Honey Glow Body Wash Soap, enriched with natural honey for a gentle and hydrating cleanse.',
+        'Details': 'Our Honey Glow Body Wash Soap is infused with pure honey, known for its moisturizing and antibacterial properties. This soap provides a creamy lather that gently cleanses while leaving your skin soft, smooth, and glowing. The sweet and subtle honey fragrance adds a touch of natural luxury to your shower routine.',
+        'Ingredients': ['Honey', 'Shea Butter', 'Olive Oil', 'Glycerin', 'Water', 'Sodium Hydroxide', 'Natural Fragrance'],
+        'How to Use': 'Lather between hands with water, apply to the body, and rinse thoroughly. For external use only.',
 
+    },
+    {
+        id:13,
+        category: 'face',
+        src:'/img/60-001.jpg',
+        name: 'Honey Glow Body Wash Soap',
+        price: 7.99,
+        type:'Suitable for all skin types, especially sensitive and dry skin.',
+        alt:'Body wash soup',
+        shortDescription: 'Nourish and soothe your skin with our Honey Glow Body Wash Soap, enriched with natural honey for a gentle and hydrating cleanse.',
+        'Details': 'Our Honey Glow Body Wash Soap is infused with pure honey, known for its moisturizing and antibacterial properties. This soap provides a creamy lather that gently cleanses while leaving your skin soft, smooth, and glowing. The sweet and subtle honey fragrance adds a touch of natural luxury to your shower routine.',
+        'Ingredients': ['Honey', 'Shea Butter', 'Olive Oil', 'Glycerin', 'Water', 'Sodium Hydroxide', 'Natural Fragrance'],
+        'How to Use': 'Lather between hands with water, apply to the body, and rinse thoroughly. For external use only.',
 
+    },
+    {
+        id:14,
+        category: 'face',
+        src:'/img/60-002.jpg',
+        name: 'Honey Glow Body Wash Soap',
+        price: 7.99,
+        type:'Suitable for all skin types, especially sensitive and dry skin.',
+        alt:'Body wash soup',
+        shortDescription: 'Nourish and soothe your skin with our Honey Glow Body Wash Soap, enriched with natural honey for a gentle and hydrating cleanse.',
+        'Details': 'Our Honey Glow Body Wash Soap is infused with pure honey, known for its moisturizing and antibacterial properties. This soap provides a creamy lather that gently cleanses while leaving your skin soft, smooth, and glowing. The sweet and subtle honey fragrance adds a touch of natural luxury to your shower routine.',
+        'Ingredients': ['Honey', 'Shea Butter', 'Olive Oil', 'Glycerin', 'Water', 'Sodium Hydroxide', 'Natural Fragrance'],
+        'How to Use': 'Lather between hands with water, apply to the body, and rinse thoroughly. For external use only.',
+
+    },
+    {
+        id:15,
+        category: 'face',
+        src:'/img/60-003.jpg',
+        name: 'Honey Glow Body Wash Soap',
+        price: 7.99,
+        type:'Suitable for all skin types, especially sensitive and dry skin.',
+        alt:'Body wash soup',
+        shortDescription: 'Nourish and soothe your skin with our Honey Glow Body Wash Soap, enriched with natural honey for a gentle and hydrating cleanse.',
+        'Details': 'Our Honey Glow Body Wash Soap is infused with pure honey, known for its moisturizing and antibacterial properties. This soap provides a creamy lather that gently cleanses while leaving your skin soft, smooth, and glowing. The sweet and subtle honey fragrance adds a touch of natural luxury to your shower routine.',
+        'Ingredients': ['Honey', 'Shea Butter', 'Olive Oil', 'Glycerin', 'Water', 'Sodium Hydroxide', 'Natural Fragrance'],
+        'How to Use': 'Lather between hands with water, apply to the body, and rinse thoroughly. For external use only.',
+
+    },
+    {
+        id:16,
+        category: 'face',
+        src:'/img/30-000.jpg',
+        name: 'Honey Glow Body Wash Soap',
+        price: 7.99,
+        type:'Suitable for all skin types, especially sensitive and dry skin.',
+        alt:'Body wash soup',
+        shortDescription: 'Nourish and soothe your skin with our Honey Glow Body Wash Soap, enriched with natural honey for a gentle and hydrating cleanse.',
+        'Details': 'Our Honey Glow Body Wash Soap is infused with pure honey, known for its moisturizing and antibacterial properties. This soap provides a creamy lather that gently cleanses while leaving your skin soft, smooth, and glowing. The sweet and subtle honey fragrance adds a touch of natural luxury to your shower routine.',
+        'Ingredients': ['Honey', 'Shea Butter', 'Olive Oil', 'Glycerin', 'Water', 'Sodium Hydroxide', 'Natural Fragrance'],
+        'How to Use': 'Lather between hands with water, apply to the body, and rinse thoroughly. For external use only.',
+
+    },
+    {
+        id:17,
+        category: 'face',
+        src:'/img/30-001.jpg',
+        name: 'Honey Glow Body Wash Soap',
+        price: 7.99,
+        type:'Suitable for all skin types, especially sensitive and dry skin.',
+        alt:'Body wash soup',
+        shortDescription: 'Nourish and soothe your skin with our Honey Glow Body Wash Soap, enriched with natural honey for a gentle and hydrating cleanse.',
+        'Details': 'Our Honey Glow Body Wash Soap is infused with pure honey, known for its moisturizing and antibacterial properties. This soap provides a creamy lather that gently cleanses while leaving your skin soft, smooth, and glowing. The sweet and subtle honey fragrance adds a touch of natural luxury to your shower routine.',
+        'Ingredients': ['Honey', 'Shea Butter', 'Olive Oil', 'Glycerin', 'Water', 'Sodium Hydroxide', 'Natural Fragrance'],
+        'How to Use': 'Lather between hands with water, apply to the body, and rinse thoroughly. For external use only.',
+
+    },
+    {
+        id:18,
+        category: 'face',
+        src:'/img/30-002.jpg',
+        name: 'Honey Glow Body Wash Soap',
+        price: 7.99,
+        type:'Suitable for all skin types, especially sensitive and dry skin.',
+        alt:'Body wash soup',
+        shortDescription: 'Nourish and soothe your skin with our Honey Glow Body Wash Soap, enriched with natural honey for a gentle and hydrating cleanse.',
+        'Details': 'Our Honey Glow Body Wash Soap is infused with pure honey, known for its moisturizing and antibacterial properties. This soap provides a creamy lather that gently cleanses while leaving your skin soft, smooth, and glowing. The sweet and subtle honey fragrance adds a touch of natural luxury to your shower routine.',
+        'Ingredients': ['Honey', 'Shea Butter', 'Olive Oil', 'Glycerin', 'Water', 'Sodium Hydroxide', 'Natural Fragrance'],
+        'How to Use': 'Lather between hands with water, apply to the body, and rinse thoroughly. For external use only.',
+
+    },
+    {
+        id:19,
+        category: 'body',
+        src:'/img/40-000.jpg',
+        name: 'Honey Glow Body Wash Soap',
+        price: 7.99,
+        type:'Suitable for all skin types, especially sensitive and dry skin.',
+        alt:'Body wash soup',
+        shortDescription: 'Nourish and soothe your skin with our Honey Glow Body Wash Soap, enriched with natural honey for a gentle and hydrating cleanse.',
+        'Details': 'Our Honey Glow Body Wash Soap is infused with pure honey, known for its moisturizing and antibacterial properties. This soap provides a creamy lather that gently cleanses while leaving your skin soft, smooth, and glowing. The sweet and subtle honey fragrance adds a touch of natural luxury to your shower routine.',
+        'Ingredients': ['Honey', 'Shea Butter', 'Olive Oil', 'Glycerin', 'Water', 'Sodium Hydroxide', 'Natural Fragrance'],
+        'How to Use': 'Lather between hands with water, apply to the body, and rinse thoroughly. For external use only.',
+
+    },
+    {
+        id:20,
+        category: 'accessories',
+        src:'/img/70-000.jpg',
+        name: 'Honey Glow Body Wash Soap',
+        price: 7.99,
+        type:'Suitable for all skin types, especially sensitive and dry skin.',
+        alt:'Body wash soup',
+        shortDescription: 'Nourish and soothe your skin with our Honey Glow Body Wash Soap, enriched with natural honey for a gentle and hydrating cleanse.',
+        'Details': 'Our Honey Glow Body Wash Soap is infused with pure honey, known for its moisturizing and antibacterial properties. This soap provides a creamy lather that gently cleanses while leaving your skin soft, smooth, and glowing. The sweet and subtle honey fragrance adds a touch of natural luxury to your shower routine.',
+        'Ingredients': ['Honey', 'Shea Butter', 'Olive Oil', 'Glycerin', 'Water', 'Sodium Hydroxide', 'Natural Fragrance'],
+        'How to Use': 'Lather between hands with water, apply to the body, and rinse thoroughly. For external use only.',
+
+    },
+    {
+        id:21,
+        category: 'accessories',
+        src:'/img/70-001.jpg',
+        name: 'Honey Glow Body Wash Soap',
+        price: 7.99,
+        type:'Suitable for all skin types, especially sensitive and dry skin.',
+        alt:'Body wash soup',
+        shortDescription: 'Nourish and soothe your skin with our Honey Glow Body Wash Soap, enriched with natural honey for a gentle and hydrating cleanse.',
+        'Details': 'Our Honey Glow Body Wash Soap is infused with pure honey, known for its moisturizing and antibacterial properties. This soap provides a creamy lather that gently cleanses while leaving your skin soft, smooth, and glowing. The sweet and subtle honey fragrance adds a touch of natural luxury to your shower routine.',
+        'Ingredients': ['Honey', 'Shea Butter', 'Olive Oil', 'Glycerin', 'Water', 'Sodium Hydroxide', 'Natural Fragrance'],
+        'How to Use': 'Lather between hands with water, apply to the body, and rinse thoroughly. For external use only.',
+
+    },
+    {
+        id:22,
+        category: 'accessories',
+        src:'/img/70-002.jpg',
+        name: 'Honey Glow Body Wash Soap',
+        price: 7.99,
+        type:'Suitable for all skin types, especially sensitive and dry skin.',
+        alt:'Body wash soup',
+        shortDescription: 'Nourish and soothe your skin with our Honey Glow Body Wash Soap, enriched with natural honey for a gentle and hydrating cleanse.',
+        'Details': 'Our Honey Glow Body Wash Soap is infused with pure honey, known for its moisturizing and antibacterial properties. This soap provides a creamy lather that gently cleanses while leaving your skin soft, smooth, and glowing. The sweet and subtle honey fragrance adds a touch of natural luxury to your shower routine.',
+        'Ingredients': ['Honey', 'Shea Butter', 'Olive Oil', 'Glycerin', 'Water', 'Sodium Hydroxide', 'Natural Fragrance'],
+        'How to Use': 'Lather between hands with water, apply to the body, and rinse thoroughly. For external use only.',
+
+    },
+
+]
+
+export const bestSellers = [
+    {
+        id:1,
+        category: 'body',
+        src:'/img/10-002.jpg',
+        name: 'Sea Salt Rose Body Scrub',
+        type: 'Suitable for all skin types, especially sensitive skin.',
+        alt:'Body scrub',
+        price: 13.49,
+        shortDescription: 'Revitalize your skin with the delicate fragrance of our Sea Salt Rose Body Scrub, formulated to exfoliate and hydrate while leaving a lovely rose scent.',
+        'Details': 'Our Sea Salt Rose Body Scrub features the gentle exfoliation of sea salt combined with the luxurious scent of rose essential oil. This scrub effectively removes dead skin cells and impurities, revealing softer, smoother skin. The added blend of moisturizing oils helps to keep your skin nourished and glowing.',
+        'Ingredients': ['Sea Salt', 'Rose Essential Oil', 'Jojoba Oil', 'Coconut Oil', 'Aloe Vera Extract', 'Glycerin'],
+        'How to Use': 'Massage onto damp skin in circular motions, focusing on rough areas. Rinse thoroughly. Use 2-3 times a week for best results. For external use only.',
+
+    },
+    {
+        id:2,
+        category: 'body',
+        src:'/img/20-002.jpg',
+        name: 'Coffee Body Wash Soap',
+        price: 8.49,
+        type:'Suitable for all skin types, especially dull and tired skin.',
+        alt:'Body wash soup',
+        shortDescription: 'Wake up your skin with our Morning Brew Body Wash Soap, enriched with coffee extract to invigorate and rejuvenate your skin.',
+        'Details': 'The Morning Brew Body Wash Soap harnesses the power of coffee extract to provide a stimulating and energizing cleanse. Its gentle exfoliating properties help remove dead skin cells, leaving your skin feeling smooth and revitalized. The rich aroma of fresh coffee offers a delightful, wake-up call for your senses.',
+        'Ingredients': ['Coffee Extract', 'Cocoa Butter', 'Coconut Oil', 'Glycerin', 'Water', 'Sodium Hydroxide', 'Natural Fragrance'],
+        'How to Use': 'Lather between hands with water, apply to the body, and rinse thoroughly. For external use only.',
+
+    },
+    {
+        id:3,
+        category: 'face',
+        src:'/img/50-001.jpg',
+        name: 'Honey Glow Body Wash Soap',
+        price: 7.99,
+        type:'Suitable for all skin types, especially sensitive and dry skin.',
+        alt:'Body wash soup',
+        shortDescription: 'Nourish and soothe your skin with our Honey Glow Body Wash Soap, enriched with natural honey for a gentle and hydrating cleanse.',
+        'Details': 'Our Honey Glow Body Wash Soap is infused with pure honey, known for its moisturizing and antibacterial properties. This soap provides a creamy lather that gently cleanses while leaving your skin soft, smooth, and glowing. The sweet and subtle honey fragrance adds a touch of natural luxury to your shower routine.',
+        'Ingredients': ['Honey', 'Shea Butter', 'Olive Oil', 'Glycerin', 'Water', 'Sodium Hydroxide', 'Natural Fragrance'],
+        'How to Use': 'Lather between hands with water, apply to the body, and rinse thoroughly. For external use only.',
+
+    },
+    {
+        id:4,
+        category: 'face',
+        src:'/img/60-002.jpg',
+        name: 'Honey Glow Body Wash Soap',
+        price: 7.99,
+        type:'Suitable for all skin types, especially sensitive and dry skin.',
+        alt:'Body wash soup',
+        shortDescription: 'Nourish and soothe your skin with our Honey Glow Body Wash Soap, enriched with natural honey for a gentle and hydrating cleanse.',
+        'Details': 'Our Honey Glow Body Wash Soap is infused with pure honey, known for its moisturizing and antibacterial properties. This soap provides a creamy lather that gently cleanses while leaving your skin soft, smooth, and glowing. The sweet and subtle honey fragrance adds a touch of natural luxury to your shower routine.',
+        'Ingredients': ['Honey', 'Shea Butter', 'Olive Oil', 'Glycerin', 'Water', 'Sodium Hydroxide', 'Natural Fragrance'],
+        'How to Use': 'Lather between hands with water, apply to the body, and rinse thoroughly. For external use only.',
+
+    },
+    {
+        id:5,
+        category: 'face',
+        src:'/img/30-001.jpg',
+        name: 'Honey Glow Body Wash Soap',
+        price: 7.99,
+        type:'Suitable for all skin types, especially sensitive and dry skin.',
+        alt:'Body wash soup',
+        shortDescription: 'Nourish and soothe your skin with our Honey Glow Body Wash Soap, enriched with natural honey for a gentle and hydrating cleanse.',
+        'Details': 'Our Honey Glow Body Wash Soap is infused with pure honey, known for its moisturizing and antibacterial properties. This soap provides a creamy lather that gently cleanses while leaving your skin soft, smooth, and glowing. The sweet and subtle honey fragrance adds a touch of natural luxury to your shower routine.',
+        'Ingredients': ['Honey', 'Shea Butter', 'Olive Oil', 'Glycerin', 'Water', 'Sodium Hydroxide', 'Natural Fragrance'],
+        'How to Use': 'Lather between hands with water, apply to the body, and rinse thoroughly. For external use only.',
+
+    },
+    {
+        id:6,
+        category: 'accessories',
+        src:'/img/70-001.jpg',
+        name: 'Honey Glow Body Wash Soap',
+        price: 7.99,
+        type:'Suitable for all skin types, especially sensitive and dry skin.',
+        alt:'Body wash soup',
+        shortDescription: 'Nourish and soothe your skin with our Honey Glow Body Wash Soap, enriched with natural honey for a gentle and hydrating cleanse.',
+        'Details': 'Our Honey Glow Body Wash Soap is infused with pure honey, known for its moisturizing and antibacterial properties. This soap provides a creamy lather that gently cleanses while leaving your skin soft, smooth, and glowing. The sweet and subtle honey fragrance adds a touch of natural luxury to your shower routine.',
+        'Ingredients': ['Honey', 'Shea Butter', 'Olive Oil', 'Glycerin', 'Water', 'Sodium Hydroxide', 'Natural Fragrance'],
+        'How to Use': 'Lather between hands with water, apply to the body, and rinse thoroughly. For external use only.',
+
+    },
+]
+
+export const instagramPosts = [
+    {
+        id:1,
+        src:'/img/110-000.jpg',
+        alt:'Instagram Post',
+    },
+    {
+        id:2,
+        src:'/img/110-001.jpg',
+        alt:'Instagram Post',
+
+    },
+    {
+        id:3,
+        src:'/img/110-002.jpg',
+        alt:'Instagram Post',
+    },
+    {
+        id:4,
+        src:'/img/110-003.jpg',
+        alt:'Instagram Post',
+
+    },
+    {
+        id:5,
+        src:'/img/110-004.jpg',
+        alt:'Instagram Post',
+
+    },
+ 
 ]

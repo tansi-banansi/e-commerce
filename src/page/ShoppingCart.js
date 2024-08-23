@@ -25,7 +25,7 @@ function ShoppingCart(){
                         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5">
                             <div className="col-span-1 md:col-span-2 lg:col-span-3 bg-white rounded-3xl p-6 shadow-xl">
                                 {cartItems.map(item =>
-                                    <div key={item.id} className="flex justify-between  border-b border-custom-100 py-6 gap-3 ">
+                                    <div key={item.id} className="flex justify-between  border-b border-custom-100 last:border-0 py-6 gap-3 ">
 
                                         <div className="shrink-0">
                                             <div className="w-24 h-24">

@@ -13,6 +13,7 @@ import ShopByCategory from "./components/ShopByCategory";
 import ShopByProduct from "./components/ShopByProduct";
 import ShoppingCart from "./page/ShoppingCart";
 import {CartProvider} from './context/ShoppingCartContext';
+import ShopBestSellers from "./components/ShopBestSeller";
 
 function App() {
 
@@ -33,9 +34,12 @@ function App() {
 
                 <Route index element={<ShopAll />}/>
                 <Route path=":category" element={<ShopByCategory />} />
+                <Route path="best-sellers" element={<ShopBestSellers />} />
 
               </Route> 
               <Route path="shop/:category/:id" element={<ShopByProduct />} />
+              <Route path="shop/best-sellers/:id" element={<ShopByProduct />} />
+              
 
               <Route path="about" element={<About />} />
               <Route path="contact" element={<Contact />} />

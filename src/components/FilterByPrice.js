@@ -12,8 +12,8 @@ function FilterByPrice({priceValue, setPriceValue}){
     }
 
     return(
-        <div className="flex flex-col space-y-3">
-            <h2 className="border-b border-gray-300 py-4 text-xl font-medium font-playfair mb-1.5">Filer by</h2>
+        <div className="flex flex-col space-y-4">
+            <h2 className="border-b border-gray-200 pb-4 text-xl font-medium">Filer by</h2>
             <button className="flex justify-between duration-200" onClick={handleToggle}>
                 <p>Price</p>
                 <p  className="text-2xl">{isvisible? '-' : '+'}</p>
@@ -23,13 +23,13 @@ function FilterByPrice({priceValue, setPriceValue}){
 
             {isvisible &&
                 <div className="flex items-center space-x-4">
-                    <span className="text-md text-gray-600">$0</span>
+                    <span className="text-md text-charcoal-gray">$0</span>
                     <input type="range" 
                     min="0"
                     max="20"
                     value={priceValue}
                     onChange={handlePriceChange}
-                    className="w-full accent-custom-500"
+                    className="w-full accent-dusty-rose"
                     />
                     <span className="text-md text-gray-600">${priceValue}</span>
                 </div>

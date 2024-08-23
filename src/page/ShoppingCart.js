@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import { useCart } from "../context/ShoppingCartContext";
 import QuantityButton from "../components/QuantityButton";

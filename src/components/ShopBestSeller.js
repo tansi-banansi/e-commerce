@@ -1,5 +1,5 @@
 import React from "react";
-import {useOutletContext, useParams } from "react-router-dom";
+import {useOutletContext } from "react-router-dom";
 import { bestSellers, categoryImages } from "../data/products";
 import ProductItem from "./ProductItem";
 

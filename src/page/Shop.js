@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { shopAll } from "../data/products";
 import { Link, Outlet, useParams } from "react-router-dom";
 import FilterByPrice from "../components/FilterByPrice";
 

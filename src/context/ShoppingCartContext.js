@@ -42,8 +42,14 @@ export const CartProvider = ({children}) =>{
         setTotalPrice(newTotalPrice.toFixed(2));
     }
 
-    useEffect(() => {
-        calculateTotalPrice()
+    useEffect(() => {   
+        const calculateTotalPrice = () => {
+            const newTotalPrice = cartItems.reduce((total,item) => {
+                return total + item.price * item.quantity
+            },0)
+            setTotalPrice(newTotalPrice.toFixed(2));
+        };
+        calculateTotalPrice();
     },[cartItems])
 
 

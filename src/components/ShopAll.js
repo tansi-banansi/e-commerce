@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import { shopAll, categoryImages } from "../data/products";
 import ProductItem from "./ProductItem";
 import { useOutletContext } from "react-router-dom";
 
 function ShopAll() {
-    const [addToCardButton, setAddToCardButton] = useState(false);
     const { priceValue } = useOutletContext();
 
 

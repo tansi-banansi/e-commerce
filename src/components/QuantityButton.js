@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, {  useState } from "react";
 
 const QuantityButton = React.memo(({item, updateQuantity, removeFromCart}) => {
     const [quantity, setQuantity] = useState(item.quantity);

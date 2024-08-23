@@ -95,7 +95,7 @@ function Home(){
                         <div className="relative w-full h-1/3 md:h-72 lg:h-80 md:w-1/3 md:mb-4">
                             <Link to="/shop/accessories" className="block h-full w-full group">
                                 <div className="relative h-full w-full">
-                                    <img src="/img/100-000.jpg" alt="Accessories Image" className="h-full w-full object-cover" />
+                                    <img src="/img/100-000.jpg" alt="Accessories" className="h-full w-full object-cover" />
                                     <div className="absolute inset-0 bg-black bg-opacity-30 md:bg-opacity-0 md:group-hover:bg-opacity-30 transition-opacity duration-300"></div>
                                 </div>
                                 <div className="absolute inset-0 flex flex-col justify-center items-center md:justify-end md:-bottom-4 text-white font-semibold">
@@ -108,7 +108,7 @@ function Home(){
                         <div className="relative w-full h-1/3 md:h-72 lg:h-80 md:w-1/3 md:mb-4">
                             <Link to="/shop/face" className="block h-full w-full group">
                                 <div className="relative h-full w-full">
-                                    <img src="/img/100-001.jpg" alt="Face Image" className="h-full w-full object-cover" />
+                                    <img src="/img/100-001.jpg" alt="Face" className="h-full w-full object-cover" />
                                     <div className="absolute inset-0 bg-black bg-opacity-30 md:bg-opacity-0 md:group-hover:bg-opacity-30 transition-opacity duration-300"></div>
                                 </div>
                                 <div className="absolute inset-0 flex flex-col justify-center items-center md:justify-end md:-bottom-4 text-white font-semibold">
@@ -121,7 +121,7 @@ function Home(){
                         <div className="relative w-full h-1/3 md:h-72 lg:h-80 md:w-1/3 md:mb-4">
                             <Link to="/shop/body" className="block h-full w-full group">
                                 <div className="relative h-full w-full">
-                                    <img src="/img/100-002.jpg" alt="Body Image" className="h-full w-full object-cover" />
+                                    <img src="/img/100-002.jpg" alt="Body" className="h-full w-full object-cover" />
                                     <div className="absolute inset-0 bg-black bg-opacity-30 md:bg-opacity-0 md:group-hover:bg-opacity-30 transition-opacity duration-300"></div>
                                 </div>
                                 <div className="absolute inset-0 flex flex-col justify-center items-center md:justify-end md:-bottom-4 text-white font-semibold">

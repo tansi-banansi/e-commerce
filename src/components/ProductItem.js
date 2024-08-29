@@ -19,7 +19,7 @@ function ProductItem({product}) {
                 </Link>
             </div>
 
-            <div className="flex flex-col justify-between items-center space-y-2 mt-2 h-16 md:h-24 lg:h-32">
+            <div className="flex flex-col justify-between items-center space-y-2 mt-2 h-20 md:h-24 lg:h-32">
                 <div className='flex flex-col items-center space-y-2'>
                     <p className="text-lg font-medium  text-charcoal-gray text-center ">{product.name}</p>
                     <p className="text-sm text-muted-black">${product.price}</p>

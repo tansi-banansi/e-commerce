@@ -7,27 +7,32 @@ function Home(){
     return(
         <div className="mx-auto 2xl:max-w-7xl">
 
-            <header className="grid grid-cols-1 lg:grid-cols-3 h-screen xl:h-auto ">
+            <header className="pb-6 md:pb-12">
                 
-                <div className="flex flex-col justify-center items-center h-screen lg:h-fulllg:items-start col-span-1 z-20 relative">
-            
-                    <h2 className="text-3xl lg:text-4xl font-playfair font-bold text-soft-white  lg:text-charcoal-gray mb-4 leading-tight text-center lg:text-left">
-                        Transform Your Skin with Nature's Best Ingredients.
-                    </h2>
-                    <p className="text-base lg:text-lg  text-soft-white lg:text-charcoal-gray mb-6 text-center lg:text-left">
-                        Handcrafted, luxurious body care made with the finest natural ingredients. Perfect for all skin types.
-                    </p>
-                    <Link to="/shop" className="py-2 px-10 uppercase tracking-tight font-semibold border-2 border-dusty-rose bg-dusty-rose text-soft-white hover:bg-transparent hover:shadow-sm hover:text-dusty-rose transition-all duration-300 text-center lg:text-left">
-                        Shop
-                    </Link>
+                <div className="flex flex-row justify-between h-screen lg:h-auto lg:gap-6 px-6 2xl:px-0  ">
+
+                    <div className="flex flex-col justify-center lg:justify-between  items-center text-center lg:text-start lg:items-start w-full lg:w-1/3 z-20 relative space-y-3 md:space-y-4 2xl:space-y-6 md:py-48 lg:py-60">
+
+                        <p className="font-playfair text-3xl md:text-4xl tracking-wide text-soft-white lg:text-charcoal-gray">
+                            <span className="font-bold">Transform Your Skin with </span> <span className="italic">Nature's Best </span><span className="font-bold">Ingredients.</span>
+                        </p>
+
+                        <p className="text-sm md:text-base text-center md:text-start font-light text-soft-white lg:text-charcoal-gray">
+                            Handcrafted, luxurious body care made with the finest natural ingredients. Perfect for all skin types.
+                        </p>
+                        <Link to="/shop" className="py-2 px-6 md:px-8 text-center uppercase tracking-tight font-semibold border-2 border-dusty-rose bg-dusty-rose text-soft-white hover:bg-transparent hover:shadow-lg hover:text-dusty-rose transition-all duration-300">
+                            Shop
+                        </Link>
+
+                    </div>
+                    
+                    <div className="hidden lg:inline-block bg-cover bg-center lg:h-auto lg:w-2/3" style={{ backgroundImage: `url('/img/100-003.webp')`,backgroundRepeat: 'no-repeat' }}></div>
+                    
+                    <div className="absolute inset-x-0 bg-black opacity-50 w-full h-full lg:hidden z-10"></div>
+                
+                    <div className="absolute inset-x-0 bg-cover bg-center lg:hidden w-full h-full" style={{ backgroundImage: `url('/img/100-003.webp')` }}></div>
+
                 </div>
-
-                <div className="hidden lg:block bg-cover bg-center h-full col-span-2" style={{ backgroundImage: `url('/img/100-003.webp')` }}></div>
-                
-                <div className="absolute inset-x-0 bg-black opacity-50 h-full lg:hidden z-10"></div>
-                
-                <div className="absolute inset-x-0 bg-cover bg-center lg:hidden h-full" style={{ backgroundImage: `url('/img/100-003.webp')` }}></div>
-
             </header>
 
             <section className="py-6 md:py-12">
@@ -55,30 +60,7 @@ function Home(){
                 
             </section>
 
-            <section className="py-6 md:py-12">
-                
-                <div className="flex flex-col-reverse md:flex-row justify-between h-auto gap-6">
-
-                    <div className="w-full md:w-1/2 h-72 bg-center  md:h-auto md:bg-fixed bg-cover " style={{ backgroundImage: "url('/img/100-004.webp')", backgroundRepeat: 'no-repeat',}}></div>
-
-                    <div className="relative flex flex-col justify-between items-center md:items-start md:justify-end space-y-3 md:space-y-4 2xl:space-y-8 md:my-24 md:w-1/2 md:pr-12 lg:pr-24 xl:pr-36 px-6 md:px-0">
-                        <p className="text-lg md:text-xl uppercase font-light text-charcoal-gray ">This weekend only</p>
-                        <p className="font-playfair text-3xl md:text-4xl tracking-wide text-charcoal-gray">
-                            <span className="font-bold">15% Off</span> <span className="italic">Sitewide</span>
-                        </p>
-                        <p className="text-sm md:text-base text-center md:text-start font-light text-charcoal-gray">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </p>
-                        <p className="font-semibold text-charcoal-gray">Use code LOVE15 at checkout</p>
-                        <Link to="/shop" className="py-2 px-6 md:px-8 text-center uppercase tracking-tight font-semibold border-2 border-dusty-rose bg-dusty-rose text-soft-white hover:bg-transparent hover:shadow-lg hover:text-dusty-rose transition-all duration-300">
-                            Shop All
-                        </Link>
-                    </div>
-
-                </div>
-
-            </section>
-
+        
             
 
             <section className="md:bg-gradient-to-b md:from-soft-white from-70% md:via-soft-white md:via-70%  md:to-charcoal-gray md:to-70%  md:px-12 lg:px-24 xl:px-36 py-6 md:py-12">
@@ -141,7 +123,7 @@ function Home(){
                 
                 <div className="flex flex-col-reverse md:flex-row justify-between h-auto gap-6">
 
-                    <div className="w-full md:w-1/2 h-72 bg-center  md:h-auto md:bg-fixed bg-cover " style={{ backgroundImage: "url('/img/100-004.webp')", backgroundRepeat: 'no-repeat',}}></div>
+                    <div className="w-full md:w-1/2 h-72 bg-center md:h-auto md:bg-fixed bg-cover " style={{ backgroundImage: "url('/img/100-004.webp')", backgroundRepeat: 'no-repeat',}}></div>
 
                     <div className="relative flex flex-col justify-between items-center md:items-start md:justify-end space-y-3 md:space-y-4 2xl:space-y-8 md:mt-24 md:w-1/2 md:pr-12 lg:pr-24 xl:pr-36 px-6 md:px-0">
                         <p className="text-lg md:text-xl uppercase font-light text-charcoal-gray ">This weekend only</p>

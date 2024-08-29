@@ -1,8 +1,8 @@
 export const productDetails = [
     {
         id:1,
-        src1: 'img/10-001.jpg',
-        src2: 'img/10-002.jpg',
+        src1: 'img/10-001.webp',
+        src2: 'img/10-002.webp',
         name:'Ocean Breeze Body Wash Bar', 
         type:'Suitable for all skin types', 
         price: '$8.99',
@@ -13,8 +13,8 @@ export const productDetails = [
     },
     {
         id:2,
-        src1: 'img/20-001.jpg',
-        src2: 'img/20-002.jpg',
+        src1: 'img/20-001.webp',
+        src2: 'img/20-002.webp',
         name:'Blossom Bliss Body Wash Bar', 
         type:'Suitable for all skin types, especially sensitive skin', 
         price: '$9.49',
@@ -25,8 +25,8 @@ export const productDetails = [
     },
     {
         id:3,
-        src1: 'img/30-001.jpg',
-        src2: 'img/30-002.jpg',
+        src1: 'img/30-001.webp',
+        src2: 'img/30-002.webp',
         name:'Creamy Vanilla Body Wash Bar', 
         type:'Suitable for all skin types, especially dry skin', 
         price: '$9.99',
@@ -40,27 +40,27 @@ export const productDetails = [
 export const categoryImages = {
     body: {
         name: 'Body',
-        src: '/img/90-000.jpg',
+        src: '/img/90-000.webp',
         alt: 'Cover Image'
     }, 
     accessories: {
         name: 'Accessories',
-        src: '/img/90-001.jpg',
+        src: '/img/90-001.webp',
         alt: 'Cover Image'
     }, 
     face: {
         name: 'Face',
-        src: '/img/90-002.jpg',
+        src: '/img/90-002.webp',
         alt: 'Cover Image'
     }, 
     shop: {
         name: 'All Products',
-        src: '/img/90-003.jpg',
+        src: '/img/90-003.webp',
         alt: 'Cover Image'
     },
     'best-sellers': {
         name: 'Best Sellers',
-        src: '/img/90-004.jpg',
+        src: '/img/90-004.webp',
         alt: 'Cover Image'
     },  
     
@@ -73,7 +73,7 @@ export const shopAll = [
     {
         id:1,
         category: 'body',
-        src:'/img/10-001.jpg',
+        src:'/img/10-001.webp',
         name: 'Sea Salt Lavender Body Scrub',
         type: 'Suitable for all skin types.',
         alt:'Body scrub',
@@ -87,7 +87,7 @@ export const shopAll = [
     {
         id:2,
         category: 'body',
-        src:'/img/10-002.jpg',
+        src:'/img/10-002.webp',
         name: 'Sea Salt Rose Body Scrub',
         type: 'Suitable for all skin types, especially sensitive skin.',
         alt:'Body scrub',
@@ -101,7 +101,7 @@ export const shopAll = [
     {
         id:3,
         category: 'body',
-        src:'/img/10-003.jpg',
+        src:'/img/10-003.webp',
         name: 'Coffee Body Scrub',
         type:'Suitable for all skin types, especially dry and dull skin.',
         alt:'Body scrub',
@@ -116,7 +116,7 @@ export const shopAll = [
     {
         id:4,
         category: 'body',
-        src:'/img/20-001.jpg',
+        src:'/img/20-001.webp',
         name: 'Coconut Bliss Body Wash Soap',
         price: 7.99,
         type:'Suitable for all skin types, especially dry skin.',
@@ -130,7 +130,7 @@ export const shopAll = [
     {
         id:5,
         category: 'body',
-        src:'/img/20-002.jpg',
+        src:'/img/20-002.webp',
         name: 'Coffee Body Wash Soap',
         price: 8.49,
         type:'Suitable for all skin types, especially dull and tired skin.',
@@ -144,7 +144,7 @@ export const shopAll = [
     {
         id:6,
         category: 'body',
-        src:'/img/20-003.jpg',
+        src:'/img/20-003.webp',
         name: 'Green Tea Body Wash Soap',
         price: 8.99,
         type:'Suitable for all skin types, especially sensitive and acne-prone skin.',
@@ -158,7 +158,7 @@ export const shopAll = [
     {
         id:7,
         category: 'body',
-        src:'/img/20-004.jpg',
+        src:'/img/20-004.webp',
         name: 'Honey Glow Body Wash Soap',
         price: 7.99,
         type:'Suitable for all skin types, especially sensitive and dry skin.',
@@ -172,7 +172,7 @@ export const shopAll = [
     {
         id:8,
         category: 'face',
-        src:'/img/50-001.jpg',
+        src:'/img/50-001.webp',
         name: 'Honey Glow Body Wash Soap',
         price: 7.99,
         type:'Suitable for all skin types, especially sensitive and dry skin.',
@@ -186,7 +186,7 @@ export const shopAll = [
     {
         id:9,
         category: 'face',
-        src:'/img/50-002.jpg',
+        src:'/img/50-002.webp',
         name: 'Honey Glow Body Wash Soap',
         price: 7.99,
         type:'Suitable for all skin types, especially sensitive and dry skin.',
@@ -200,7 +200,7 @@ export const shopAll = [
     {
         id:10,
         category: 'face',
-        src:'/img/50-003.jpg',
+        src:'/img/50-003.webp',
         name: 'Honey Glow Body Wash Soap',
         price: 7.99,
         type:'Suitable for all skin types, especially sensitive and dry skin.',
@@ -214,7 +214,7 @@ export const shopAll = [
     {
         id:11,
         category: 'face',
-        src:'/img/50-004.jpg',
+        src:'/img/50-004.webp',
         name: 'Honey Glow Body Wash Soap',
         price: 7.99,
         type:'Suitable for all skin types, especially sensitive and dry skin.',
@@ -228,7 +228,7 @@ export const shopAll = [
     {
         id:12,
         category: 'face',
-        src:'/img/60-000.jpg',
+        src:'/img/60-000.webp',
         name: 'Honey Glow Body Wash Soap',
         price: 7.99,
         type:'Suitable for all skin types, especially sensitive and dry skin.',
@@ -242,7 +242,7 @@ export const shopAll = [
     {
         id:13,
         category: 'face',
-        src:'/img/60-001.jpg',
+        src:'/img/60-001.webp',
         name: 'Honey Glow Body Wash Soap',
         price: 7.99,
         type:'Suitable for all skin types, especially sensitive and dry skin.',
@@ -256,7 +256,7 @@ export const shopAll = [
     {
         id:14,
         category: 'face',
-        src:'/img/60-002.jpg',
+        src:'/img/60-002.webp',
         name: 'Honey Glow Body Wash Soap',
         price: 7.99,
         type:'Suitable for all skin types, especially sensitive and dry skin.',
@@ -270,7 +270,7 @@ export const shopAll = [
     {
         id:15,
         category: 'face',
-        src:'/img/60-003.jpg',
+        src:'/img/60-003.webp',
         name: 'Honey Glow Body Wash Soap',
         price: 7.99,
         type:'Suitable for all skin types, especially sensitive and dry skin.',
@@ -284,7 +284,7 @@ export const shopAll = [
     {
         id:16,
         category: 'face',
-        src:'/img/30-000.jpg',
+        src:'/img/30-000.webp',
         name: 'Honey Glow Body Wash Soap',
         price: 7.99,
         type:'Suitable for all skin types, especially sensitive and dry skin.',
@@ -298,7 +298,7 @@ export const shopAll = [
     {
         id:17,
         category: 'face',
-        src:'/img/30-001.jpg',
+        src:'/img/30-001.webp',
         name: 'Honey Glow Body Wash Soap',
         price: 7.99,
         type:'Suitable for all skin types, especially sensitive and dry skin.',
@@ -312,7 +312,7 @@ export const shopAll = [
     {
         id:18,
         category: 'face',
-        src:'/img/30-002.jpg',
+        src:'/img/30-002.webp',
         name: 'Honey Glow Body Wash Soap',
         price: 7.99,
         type:'Suitable for all skin types, especially sensitive and dry skin.',
@@ -326,7 +326,7 @@ export const shopAll = [
     {
         id:19,
         category: 'body',
-        src:'/img/40-000.jpg',
+        src:'/img/40-000.webp',
         name: 'Honey Glow Body Wash Soap',
         price: 7.99,
         type:'Suitable for all skin types, especially sensitive and dry skin.',
@@ -340,7 +340,7 @@ export const shopAll = [
     {
         id:20,
         category: 'accessories',
-        src:'/img/70-000.jpg',
+        src:'/img/70-000.webp',
         name: 'Honey Glow Body Wash Soap',
         price: 7.99,
         type:'Suitable for all skin types, especially sensitive and dry skin.',
@@ -354,7 +354,7 @@ export const shopAll = [
     {
         id:21,
         category: 'accessories',
-        src:'/img/70-001.jpg',
+        src:'/img/70-001.webp',
         name: 'Honey Glow Body Wash Soap',
         price: 7.99,
         type:'Suitable for all skin types, especially sensitive and dry skin.',
@@ -368,7 +368,7 @@ export const shopAll = [
     {
         id:22,
         category: 'accessories',
-        src:'/img/70-002.jpg',
+        src:'/img/70-002.webp',
         name: 'Honey Glow Body Wash Soap',
         price: 7.99,
         type:'Suitable for all skin types, especially sensitive and dry skin.',
@@ -386,7 +386,7 @@ export const bestSellers = [
     {
         id:1,
         category: 'body',
-        src:'/img/10-002.jpg',
+        src:'/img/10-002.webp',
         name: 'Sea Salt Rose Body Scrub',
         type: 'Suitable for all skin types, especially sensitive skin.',
         alt:'Body scrub',
@@ -400,7 +400,7 @@ export const bestSellers = [
     {
         id:2,
         category: 'body',
-        src:'/img/20-002.jpg',
+        src:'/img/20-002.webp',
         name: 'Coffee Body Wash Soap',
         price: 8.49,
         type:'Suitable for all skin types, especially dull and tired skin.',
@@ -414,7 +414,7 @@ export const bestSellers = [
     {
         id:3,
         category: 'face',
-        src:'/img/50-001.jpg',
+        src:'/img/50-001.webp',
         name: 'Honey Glow Body Wash Soap',
         price: 7.99,
         type:'Suitable for all skin types, especially sensitive and dry skin.',
@@ -428,7 +428,7 @@ export const bestSellers = [
     {
         id:4,
         category: 'face',
-        src:'/img/60-002.jpg',
+        src:'/img/60-002.webp',
         name: 'Honey Glow Body Wash Soap',
         price: 7.99,
         type:'Suitable for all skin types, especially sensitive and dry skin.',
@@ -442,7 +442,7 @@ export const bestSellers = [
     {
         id:5,
         category: 'face',
-        src:'/img/30-001.jpg',
+        src:'/img/30-001.webp',
         name: 'Honey Glow Body Wash Soap',
         price: 7.99,
         type:'Suitable for all skin types, especially sensitive and dry skin.',
@@ -456,7 +456,7 @@ export const bestSellers = [
     {
         id:6,
         category: 'accessories',
-        src:'/img/70-001.jpg',
+        src:'/img/70-001.webp',
         name: 'Honey Glow Body Wash Soap',
         price: 7.99,
         type:'Suitable for all skin types, especially sensitive and dry skin.',
@@ -472,29 +472,29 @@ export const bestSellers = [
 export const instagramPosts = [
     {
         id:1,
-        src:'/img/110-000.jpg',
+        src:'/img/110-000.webp',
         alt:'Instagram Post',
     },
     {
         id:2,
-        src:'/img/110-001.jpg',
+        src:'/img/110-001.webp',
         alt:'Instagram Post',
 
     },
     {
         id:3,
-        src:'/img/110-002.jpg',
+        src:'/img/110-002.webp',
         alt:'Instagram Post',
     },
     {
         id:4,
-        src:'/img/110-003.jpg',
+        src:'/img/110-003.webp',
         alt:'Instagram Post',
 
     },
     {
         id:5,
-        src:'/img/110-004.jpg',
+        src:'/img/110-004.webp',
         alt:'Instagram Post',
 
     },

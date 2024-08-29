@@ -22,11 +22,11 @@ function Home(){
                     </Link>
                 </div>
 
-                <div className="hidden lg:block bg-cover bg-center h-full col-span-2" style={{ backgroundImage: `url('/img/100-003.jpg')` }}></div>
+                <div className="hidden lg:block bg-cover bg-center h-full col-span-2" style={{ backgroundImage: `url('/img/100-003.webp')` }}></div>
                 
                 <div className="absolute inset-x-0 bg-black opacity-50 h-full lg:hidden z-10"></div>
                 
-                <div className="absolute inset-x-0 bg-cover bg-center lg:hidden h-full" style={{ backgroundImage: `url('/img/100-003.jpg')` }}></div>
+                <div className="absolute inset-x-0 bg-cover bg-center lg:hidden h-full" style={{ backgroundImage: `url('/img/100-003.webp')` }}></div>
 
             </header>
 
@@ -59,7 +59,7 @@ function Home(){
                 
                 <div className="flex flex-col-reverse md:flex-row justify-between h-auto gap-6">
 
-                    <div className="w-full md:w-1/2 h-72 bg-center  md:h-auto md:bg-fixed bg-cover " style={{ backgroundImage: "url('/img/100-004.jpg')", backgroundRepeat: 'no-repeat',}}></div>
+                    <div className="w-full md:w-1/2 h-72 bg-center  md:h-auto md:bg-fixed bg-cover " style={{ backgroundImage: "url('/img/100-004.webp')", backgroundRepeat: 'no-repeat',}}></div>
 
                     <div className="relative flex flex-col justify-between items-center md:items-start md:justify-end space-y-3 md:space-y-4 2xl:space-y-8 md:my-24 md:w-1/2 md:pr-12 lg:pr-24 xl:pr-36 px-6 md:px-0">
                         <p className="text-lg md:text-xl uppercase font-light text-charcoal-gray ">This weekend only</p>
@@ -95,7 +95,7 @@ function Home(){
                         <div className="relative w-full h-1/3 md:h-72 lg:h-80 md:w-1/3 md:mb-4">
                             <Link to="/shop/accessories" className="block h-full w-full group">
                                 <div className="relative h-full w-full">
-                                    <img src="/img/100-000.jpg" alt="Accessories" className="h-full w-full object-cover" />
+                                    <img src="/img/100-000.webp" alt="Accessories" className="h-full w-full object-cover" />
                                     <div className="absolute inset-0 bg-black bg-opacity-30 md:bg-opacity-0 md:group-hover:bg-opacity-30 transition-opacity duration-300"></div>
                                 </div>
                                 <div className="absolute inset-0 flex flex-col justify-center items-center md:justify-end md:-bottom-4 text-white font-semibold">
@@ -108,7 +108,7 @@ function Home(){
                         <div className="relative w-full h-1/3 md:h-72 lg:h-80 md:w-1/3 md:mb-4">
                             <Link to="/shop/face" className="block h-full w-full group">
                                 <div className="relative h-full w-full">
-                                    <img src="/img/100-001.jpg" alt="Face" className="h-full w-full object-cover" />
+                                    <img src="/img/100-001.webp" alt="Face" className="h-full w-full object-cover" />
                                     <div className="absolute inset-0 bg-black bg-opacity-30 md:bg-opacity-0 md:group-hover:bg-opacity-30 transition-opacity duration-300"></div>
                                 </div>
                                 <div className="absolute inset-0 flex flex-col justify-center items-center md:justify-end md:-bottom-4 text-white font-semibold">
@@ -121,7 +121,7 @@ function Home(){
                         <div className="relative w-full h-1/3 md:h-72 lg:h-80 md:w-1/3 md:mb-4">
                             <Link to="/shop/body" className="block h-full w-full group">
                                 <div className="relative h-full w-full">
-                                    <img src="/img/100-002.jpg" alt="Body" className="h-full w-full object-cover" />
+                                    <img src="/img/100-002.webp" alt="Body" className="h-full w-full object-cover" />
                                     <div className="absolute inset-0 bg-black bg-opacity-30 md:bg-opacity-0 md:group-hover:bg-opacity-30 transition-opacity duration-300"></div>
                                 </div>
                                 <div className="absolute inset-0 flex flex-col justify-center items-center md:justify-end md:-bottom-4 text-white font-semibold">
@@ -141,7 +141,7 @@ function Home(){
                 
                 <div className="flex flex-col-reverse md:flex-row justify-between h-auto gap-6">
 
-                    <div className="w-full md:w-1/2 h-72 bg-center  md:h-auto md:bg-fixed bg-cover " style={{ backgroundImage: "url('/img/100-004.jpg')", backgroundRepeat: 'no-repeat',}}></div>
+                    <div className="w-full md:w-1/2 h-72 bg-center  md:h-auto md:bg-fixed bg-cover " style={{ backgroundImage: "url('/img/100-004.webp')", backgroundRepeat: 'no-repeat',}}></div>
 
                     <div className="relative flex flex-col justify-between items-center md:items-start md:justify-end space-y-3 md:space-y-4 2xl:space-y-8 md:mt-24 md:w-1/2 md:pr-12 lg:pr-24 xl:pr-36 px-6 md:px-0">
                         <p className="text-lg md:text-xl uppercase font-light text-charcoal-gray ">This weekend only</p>
@@ -161,7 +161,7 @@ function Home(){
 
             </section>
 
-            <section className="h-auto relative bg-center bg-cover bg-no-repeat md:px-12 lg:px-24 xl:px-36 py-12 md:py-24" style={{ backgroundImage: "url('/img/100-010.jpg')" }}>
+            <section className="h-auto relative bg-center bg-cover bg-no-repeat md:px-12 lg:px-24 xl:px-36 py-12 md:py-24" style={{ backgroundImage: "url('/img/100-010.webp')" }}>
 
                 <div className="absolute inset-0 bg-black bg-opacity-30"></div>
 

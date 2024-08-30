@@ -7,17 +7,25 @@ export const useCart = () => useContext(CartContext);
 export const CartProvider = ({children}) =>{
     const [cartItems, setCartItems] = useState([]);
     const [totalPrice, setTotalPrice] = useState(0);
+    const [isModalVisible, setIsModalVisible] = useState(false);
+    const [lastItemAdded, setLastItemAdded] = useState(null);
  
     const addToCart = (product) =>{
         setCartItems( (prev) => {
             const existingProductIndex = prev.findIndex((item) => item.id === product.id)
             if(existingProductIndex >= 0){
-                return prev.with(existingProductIndex, {...prev[existingProductIndex],quantity: prev[existingProductIndex].quantity + product.quantity})
+                const updatedCart =  prev.with(existingProductIndex, {...prev[existingProductIndex],quantity: prev[existingProductIndex].quantity + product.quantity})
+                setLastItemAdded(updatedCart[existingProductIndex])
+                console.log(lastItemAdded)
+                return updatedCart
             } else {
+                setLastItemAdded(product)
                 return [...prev, product]
             }
         })
+        setIsModalVisible(true)
     }
+
 
     const updateQuantity = (updatedItem) => {
         setCartItems(currentItems =>
@@ -54,7 +62,7 @@ export const CartProvider = ({children}) =>{
 
 
     return(
-        <CartContext.Provider value={{cartItems, addToCart,updateQuantity, removeFromCart, clearCart, totalPrice, calculateTotalPrice}}>
+        <CartContext.Provider value={{cartItems, isModalVisible,lastItemAdded, setIsModalVisible, addToCart,updateQuantity, removeFromCart, clearCart, totalPrice, calculateTotalPrice}}>
             {children}
         </CartContext.Provider>
     )

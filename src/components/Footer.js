@@ -5,7 +5,7 @@ import MailingListForm from "./MailingListForm";
 
 function Footer() {
     return (
-        <div className="max-w-7xl mx-auto py-12 px-6 grid grid-cols-1 gap-y-8 lg:gap-10 lg:grid-cols-3 text-center md:text-start bg-charcoal-gray text-soft-white">
+        <div className="2xl:max-w-7xl mx-auto py-12 px-6 2xl:px-0 grid grid-cols-1 gap-y-8 lg:gap-10 lg:grid-cols-3 text-center md:text-start bg-charcoal-gray text-soft-white">
 
             <MailingListForm />
 

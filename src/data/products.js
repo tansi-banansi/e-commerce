@@ -1,41 +1,3 @@
-export const productDetails = [
-    {
-        id:1,
-        src1: 'img/10-001.webp',
-        src2: 'img/10-002.webp',
-        name:'Ocean Breeze Body Wash Bar', 
-        type:'Suitable for all skin types', 
-        price: '$8.99',
-        shortDescription: 'Experience the invigorating essence of the ocean with our Ocean Breeze Body Wash Bar, designed to refresh and rejuvenate your skin.',
-        'Details': 'Our Ocean Breeze Body Wash Bar is infused with natural sea salt and marine minerals, providing a deep cleanse and a refreshing scent that transports you to the seaside. Perfect for daily use, this bar leaves your skin feeling clean, nourished, and hydrated.',
-        'Ingredients': ['Sea Salt', 'Marine Minerals', 'Shea Butter', 'Olive Oil', 'Glycerin', 'Water'],
-        'How to Use': 'Lather between hands with water, apply to the body, and rinse thoroughly. For external use only.'
-    },
-    {
-        id:2,
-        src1: 'img/20-001.webp',
-        src2: 'img/20-002.webp',
-        name:'Blossom Bliss Body Wash Bar', 
-        type:'Suitable for all skin types, especially sensitive skin', 
-        price: '$9.49',
-        shortDescription: 'Indulge in the delicate floral scent of our Blossom Bliss Body Wash Bar, enriched with rose petals and jasmine oil to leave your skin feeling soft and fragrant.',
-        'Details': 'The Blossom Bliss Body Wash Bar combines the sweet aromas of rose and jasmine with the moisturizing properties of coconut oil and aloe vera. It’s perfect for those who love a gentle, soothing cleanse that leaves a lingering floral fragrance.',
-        'Ingredients': ['Rose Petals', 'Jasmine Oil', 'Coconut Oil', 'Aloe Vera', 'Glycerin', 'Water'],
-        'How to Use': 'Lather between hands with water, apply to the body, and rinse thoroughly. For external use only.'
-    },
-    {
-        id:3,
-        src1: 'img/30-001.webp',
-        src2: 'img/30-002.webp',
-        name:'Creamy Vanilla Body Wash Bar', 
-        type:'Suitable for all skin types, especially dry skin', 
-        price: '$9.99',
-        shortDescription: 'Immerse yourself in the rich, creamy lather of our Creamy Vanilla Body Wash Bar, crafted to moisturize and soothe your skin with the comforting scent of vanilla.',
-        'Details': 'Our Creamy Vanilla Body Wash Bar is a luxurious treat for your skin, infused with vanilla extract, cocoa butter, and almond oil. This bar is designed to deeply moisturize, leaving your skin soft, smooth, and delicately scented with vanilla.',
-        'Ingredients': ['Vanilla Extract', 'Cocoa Butter', 'Almond Oil', 'Vitamin E', 'Glycerin', 'Water'],
-        'How to Use': 'Lather between hands with water, apply to the body, and rinse thoroughly. For external use only.'
-    }
-]
 
 export const categoryImages = {
     body: {
@@ -384,7 +346,7 @@ export const shopAll = [
 
 export const bestSellers = [
     {
-        id:1,
+        id:2,
         category: 'body',
         src:'/img/10-002.webp',
         name: 'Sea Salt Rose Body Scrub',
@@ -398,7 +360,7 @@ export const bestSellers = [
 
     },
     {
-        id:2,
+        id:5,
         category: 'body',
         src:'/img/20-002.webp',
         name: 'Coffee Body Wash Soap',
@@ -412,7 +374,7 @@ export const bestSellers = [
 
     },
     {
-        id:3,
+        id:8,
         category: 'face',
         src:'/img/50-001.webp',
         name: 'Honey Glow Body Wash Soap',
@@ -426,7 +388,7 @@ export const bestSellers = [
 
     },
     {
-        id:4,
+        id:14,
         category: 'face',
         src:'/img/60-002.webp',
         name: 'Honey Glow Body Wash Soap',
@@ -440,7 +402,7 @@ export const bestSellers = [
 
     },
     {
-        id:5,
+        id:17,
         category: 'face',
         src:'/img/30-001.webp',
         name: 'Honey Glow Body Wash Soap',
@@ -454,7 +416,7 @@ export const bestSellers = [
 
     },
     {
-        id:6,
+        id:21,
         category: 'accessories',
         src:'/img/70-001.webp',
         name: 'Honey Glow Body Wash Soap',
@@ -499,4 +461,32 @@ export const instagramPosts = [
 
     },
  
+]
+
+export const recommendedProducts = [
+    {
+        id:12,
+        category: 'face',
+        src:'/img/60-000.webp',
+        name: 'Honey Glow Body Wash Soap',
+        price: 7.99,
+        alt:'Body wash soup',
+    },
+    {
+        id:3,
+        category: 'body',
+        src:'/img/10-003.webp',
+        name: 'Coffee Body Scrub',
+        alt:'Body scrub',
+        price: 14.99,
+    },
+    {
+        id:16,
+        category: 'face',
+        src:'/img/30-000.webp',
+        name: 'Honey Glow Body Wash Soap',
+        price: 7.99,
+        alt:'Body wash soup',
+    },
+
 ]

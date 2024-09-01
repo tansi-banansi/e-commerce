@@ -7,6 +7,7 @@ import YouMightAlsoLike from './YouMightAlsoLike';
 function Layout() {
     const [isOpen, setIsOpen] = useState(false);
 
+
     const {cartItems, isModalVisible, setIsModalVisible, lastItemAdded} = useCart();
 
     const toggleMenu = () => {
@@ -82,7 +83,7 @@ function Layout() {
  
                      <div className='hidden md:block'>
                          <Link to='/shopping-cart' className="group flex flex-row uppercase items-center justify-center gap-1">
-                            <p className='group-hover:text-dusty-rose transition-colors duration-4300'>My Basket</p>
+                            <p className='group-hover:text-dusty-rose transition-colors duration-300'>My Basket</p>
                             <div className='relative group-hover:text-dusty-rose mb-1 group-hover:animate-bounce duration-400' >
                                 <svg fill="#ffffff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" className='h-7 relative fill-current group-hover:text-dusty-rose transition-colors duration-300 ' alt='Shopping bag icon'>
                                     <path d="M20,9H17V7A5,5,0,0,0,7,7V9H4L3,22H21ZM15,9H9V7a3,3,0,0,1,6,0Z"></path>
@@ -94,22 +95,40 @@ function Layout() {
  
                  </div>
                  {isOpen && (
-                     <ul className="md:hidden bg-charcoal-gray text-soft-white px-6 space-y-2 w-full shadow-lg border-t border-soft-white">
+                     <ul className="md:hidden bg-charcoal-gray text-soft-white space-y-6 py-6 w-full shadow-lg border-t border-soft-white border-opacity-50">
+               
+                        
                          <li>
-                             <Link to="/" className="hover:text-dusty-rose transition-colors duration-300 py-3 rounded-md block">Home</Link>
+                             <Link to="/" className="hover:text-dusty-rose transition-all duration-300 px-6 text-lg uppercase font-light  rounded-md block" onClick={() => setIsOpen(false)}>Home</Link>
+                         </li>
+                         <li className=''>
+                                <input type='checkbox' className="peer hidden" id="toggle-checkbox" />
+
+                                <label  htmlFor="toggle-checkbox" className='flex justify-between items-center cursor-pointer  px-6 transition-all duration-300 group'>
+                                    <p className='group-hover:text-dusty-rose transition-all duration-300 text-lg uppercase font-light '>Shop</p>
+                                    <svg class="-mr-1 h-5 w-5 text-soft-white group-hover:text-dusty-rose" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                        <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+                                    </svg>
+                                </label>
+                                
+                                <div className='hidden peer-checked:flex  flex-col text-soft-white px-10 space-y-3 py-2 mt-3 bg-black bg-opacity-10 text-lg font-light tracking-wide  transition-all duration-300'>
+                                    <Link to="/shop" className="hover:text-dusty-rose " onClick={() => setIsOpen(false)}>All Products</Link>
+                                    <Link to="/shop/best-sellers" className="hover:text-dusty-rose" onClick={() => setIsOpen(false)}>Best Sellers</Link>
+                                    <Link to="/shop/face" className="hover:text-dusty-rose" onClick={() => setIsOpen(false)}>Face</Link>
+                                    <Link to="/shop/body" className="hover:text-dusty-rose" onClick={() => setIsOpen(false)}>Body</Link>
+                                    <Link to="/shop/accessories" className="hover:text-dusty-rose" onClick={() => setIsOpen(false)}>Accessories</Link>
+                                </div>
                          </li>
                          <li>
-                             <Link to='/shop' className="hover:text-dusty-rose transition-colors duration-300 py-5 block">Shop</Link>
+                             <Link to="/about" className="hover:text-dusty-rose transition-all duration-300 px-6 text-lg uppercase font-light block" onClick={() => setIsOpen(false)}>About</Link>
                          </li>
                          <li>
-                             <Link to="/about" className="hover:text-dusty-rose transition-colors duration-300 py-5 block">About</Link>
+                             <Link to="/contact" className="hover:text-dusty-rose transition-all duration-300  px-6 text-lg uppercase font-light  block" onClick={() => setIsOpen(false)}>Contact</Link>
                          </li>
                          <li>
-                             <Link to="/contact" className="hover:text-dusty-rose transition-colors duration-300 py-5 block">Contact</Link>
+                             <Link to='/shopping-cart' className="hover:text-dusty-rose transition-all duration-300 px-6 text-lg uppercase font-light  block" onClick={() => setIsOpen(false)}>My Basket ({cartItems.length})</Link>
                          </li>
-                         <li>
-                             <Link to='/shopping-cart' className="hover:text-dusty-rose transition-colors duration-300 py-5 block">My Basket ({cartItems.length})</Link>
-                         </li>
+        
                      </ul>
                  )}
 
@@ -118,7 +137,7 @@ function Layout() {
             
             {isModalVisible && (
                 <div className='hidden md:flex h-full w-full fixed z-50 top-0 left-0 bg-black bg-opacity-50 justify-center items-center'>
-                    <div className='bg-soft-white space-y-6 h-full shadow-md flex flex-row-reverse justify-between items-start overflow-auto transition-opacity transform ease-out'>
+                    <div className='bg-soft-white space-y-6 sm:h-full xl:h-2/3 shadow-md flex flex-row-reverse justify-between items-start overflow-auto '>
 
                             <button className="text-2xl text-charcoal-gray hover:text-dusty-rose focus:outline-none m-5" onClick={handleContinueShopping}>&#10005;</button>
                             
